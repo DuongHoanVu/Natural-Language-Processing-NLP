@@ -27,7 +27,7 @@
 
 ### Part of Speech Tagging and Named Entity Recognition
    
-   1/ Part of Speech Tagging
+    1/ Part of Speech Tagging
     2/ Named Enity Recognition
     3/ Sentence Segmentation
 
