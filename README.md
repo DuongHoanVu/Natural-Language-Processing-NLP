@@ -116,5 +116,10 @@
 
 ### Deep Learning for NLP
     
-    1/ Text Generation with LSTM:   
-    2/ Creating Chat Bots:          
+  1/ Text Generation with LSTM:
+        Recurrent neural network can be used as generative models. LSTM model learns from the sequences of a problem, then generate entirely new plausible sequences for the problem domain.
+        Text Generation is the prediction task
+            Given a character or a sequence of characters, model predict which word is the most probable in a sequence.
+            Training the model to perform with sequence of characters to predict the output - the following character at each step.
+            The model does not learn the meaning of words but consider the structure of the output resembles a play, blocks of text.
+        
