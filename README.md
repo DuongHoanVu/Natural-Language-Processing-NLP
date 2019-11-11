@@ -1,5 +1,5 @@
 # Natural Language Processing (NLP)
-
+All files are taken from the Udemy course, "NLP - Natural Language Processing with Python", by Jose Portilla.
 ### Natural Language Processing
 
     1/ What is NLP:     
