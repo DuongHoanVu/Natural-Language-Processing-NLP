@@ -2,9 +2,11 @@
 
 ### Natural Language Processing
 
-    1/ What is NLP:
-    2/ Spacy Basics:
-    3/ Tokenization:
+    1/ What is NLP:     an area of Computer Science and Artificial Intelligence concerned with interaction between human and computer
+    2/ Spacy vs NLTK:   choosing Spacy over NLTK library for combination of speed and accuracy, 
+                        however Spacy does not include pre-created model for application like sentiment analysis. 
+                        NLTK is easier to use.   
+    3/ Tokenization:    
     4/ Stemming:
     5/ Lemmatization:
     6/ Stop Words:
