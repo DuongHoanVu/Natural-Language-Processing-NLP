@@ -52,14 +52,50 @@
 
 ### Semantics and Sentiment Analysis
     
-    1/ Semantics and Word Vectors:  
-    2/ Sentiment Analysis:          
-
+    1/ Semantics and Word Vectors:  Also known as Word Embedding
+                                    Representation of word in vector format.
+                                    Predictive model learns vectors to improve predictive ability of a target word.
+                                    The purpose of using Word Vector:
+                                        - transform unstructed text to structed data
+                                        - group vectors of similar words in vector space
+                                        - machine learns naturally from large corpus of text to make accurate guess about word's meaning.
+                                        - establish word's association: man -> boy
+                                    2 Methods to make prediction of a target:
+                                        - Bag of Words(CBOW):   use context to predict target, by applying Cosine Similarity measurement.
+                                                                Ex: 'Today is a ... day', the blank space should be 'nice' 
+                                        - Skip-gram:            use a word to predict context.
+                                                                Ex: 'Beautiful ...', the blank space could be 'girl', 'woman', ...
+    2/ Sentiment Analysis:  Also known as Opinion mining, Emtion AI
+                            Subfield of NLP
+                            Identify & extract opinions across Facebook, blog, news, ...
+                            Method: VADER (Valence Aware Dictionary for Sentiment Reasoner)
+                            Why VADER
+                                If having label data, using text classification, else using VADER.
+                                A model for text sentiment analysis.
+                                Being sentitive to polarities (positive, negative)
+                                Being indicative:   Punctuation:    !
+                                                    Capitalization: 'GREAT' vs 'great'
+                                                    Intensity:      'extremly', 'slightly'
+                                                    Conjunction:    'but', 'however'
+                                                    Preceding Tri-gram: negation flip the polarity of text
+                                 Handling Emojis, Emotions, Slangs, Acronym
 ### Topic Modeling
     
-    1/ What is Topic Modeling:          
-    2/ Latent Dirchlet Allocation:      
-    3/ Non-negative Matrix Factorization: 
+    1/ What is Topic Modeling:      Efficiently analyze large volumns of text, and cluster documents into topics.
+                                    Why it is important?
+                                        attempting to group large amount of unlabel data.
+                                        discovering hidden topic pattern.
+    2/ Latent Dirchlet Allocation method:
+            Unsupervised model.
+            Documents with similar topics use similar words.
+            Ex: Business, Economy use words like money, price, market.
+            Latent topics are found by searching for group of words that frequently occur across the corpus.
+            Documents are probability distribution over latent topics.
+            Topics are probability distribution over words.
+    3/ Non-negative Matrix Factorization method: 
+            Unsupervised model.
+            Perform dimenionality & clustering 
+            Used along with TF-IDF to model topic across corpus.            
 
 ### Deep Learning for NLP
     
